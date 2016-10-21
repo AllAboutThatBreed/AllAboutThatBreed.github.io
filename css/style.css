@@ -397,17 +397,6 @@ nav{
 	padding-top:4em;
 }
 
-/*.section3 .container{
-	background-color:#66ccff;
-}*/
-
-.casestudies{
-/*	width:80%;*/
-/*	height:1000px;*/
-/*	margin: auto;*/
-/*	background-color: #fff;*/
-}
-
 .casestudies_heading{
 	position:relative;
 	text-align: center;
@@ -650,6 +639,7 @@ margin: 0 auto;
 	color:#fff;
 	text-align:center;
 	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
 }
 
 .fa{
@@ -662,11 +652,6 @@ margin: 0 auto;
 	margin: 0 auto;
 	padding: 1em;
 }
-
-
- .footer2 p:hover{
- 	color:#fff;
- }
 
 
  .footer2 p a:link a:visited a:active{

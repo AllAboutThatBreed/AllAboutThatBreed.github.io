@@ -663,21 +663,20 @@ margin: 0 auto;
 	padding: 1em;
 }
 
-.footer_container .fa a:hover{
-	color:#c0ffee;
-}
 
-.footer_container h4 a:hover{
-	color:red;
-}
+ .footer2 p:hover{
+ 	color:#fff;
+ }
 
-a:link, a:visited a:active{
+
+ .footer2 p a:link a:visited a:active{
 	text-decoration: none;
 	color:#fff;
 }
 
 .footer h4{
 	color:white;
+	text-decoration:none;
 }
 
 /*PAGE 2*/

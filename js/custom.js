@@ -72,7 +72,7 @@ var casestudies =[
 
 		{
 	   	
-	   	image:"http://placehold.it/350x250",
+	   	image:"images/casestudy2_shepherd.jpg",
 	   	location:"Sydney, Australia",
 		name:"Abbey Girl",
 		breed:"German Shepherd",
@@ -85,7 +85,7 @@ var casestudies =[
 	   	
 	   	image:"images/casestudy3_briard.jpg",
 	   	location:"Sydney, Australia",
-		name:"Elles Belles",
+		name:"Hudson",
 		breed:"Briard",
 		description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ipsum arcu, aliquet et nulla sed, placerat accumsan erat. Ducimus harum...",
 		button:"Read More",
@@ -93,7 +93,7 @@ var casestudies =[
 	},
 
 		{
-	   	image:"http://placehold.it/350x250",
+	   	image:"images/casestudy4_husky.jpg",
 	   	location:"Sydney, Australia",
 		name:"Zeus Almighty",
 		breed:"Husky",

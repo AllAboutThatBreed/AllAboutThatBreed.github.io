@@ -10,6 +10,15 @@ text-transform:uppercase;
 color:#fff;
 }
 
+a.navbar-brand {
+	background-image: url('../images/logo1.png');
+	width:50px;
+	height:50;
+	background-repeat: no-repeat;
+	margin:10px !important;
+	margin-top:20px !important;
+}
+
 .navbar-default .navbar-nav>li>a {
 color:#fff;
 font-size:1.1em;
@@ -56,6 +65,7 @@ color:#fff;
 
 a{
 color:#fff;
+text-decoration: none !important;
 }
 
 
@@ -178,7 +188,7 @@ img {
 	height:40em;
 /*	padding-top:15em;*/
 	/*padding-bottom:20em;*/
-	background-image: url('../images/banner_home3.png');
+	background-image: url('../images/banner_home5.jpg');
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -284,6 +294,7 @@ nav{
 .about_image{
 	background-image: url('../images/about_image2.png');
 	background-size:cover;
+	background-position: center;
 	margin: 0 0 2em auto;
 	width:100%;
 	height:400px;
@@ -310,7 +321,7 @@ nav{
 	/*border:1px solid #000;*/
 	display:inline-block;
 	margin-top:2em;
-	background-color: /*#ff9933*/ #66ffcc;
+	background-color: #66ffcc;
  }
 
  .about_text .button{
@@ -369,7 +380,7 @@ nav{
     background-color:#66ffcc;
     border: 1px solid transparent;
     border-radius: 20px;
-    width: 40%;
+    width: 60%;
     vertical-align: center;
 }
 
@@ -434,7 +445,7 @@ div.dropdown .open .btn .btn-default .dropdown-toggle .ul .dropdown-menu{
 	left: 0 !important; 
 	z-index: 1000;
 	float: none !important; 
-	min-width: 40%;
+	min-width: 60%;
 	padding: 5px 0;
 /*	margin: 2px 0 0;*/
 	font-size: 14px;
@@ -509,7 +520,7 @@ div.dropdown .open .btn .btn-default .dropdown-toggle .ul .dropdown-menu{
 
 .section4 {
 	
-	background-image: url('../images/banner_home2.png');
+	background-image: url('../images/banner_home6.jpg');
 	background-color:#f3f3f3;
 	width:100%;
 	height:auto;
@@ -659,7 +670,7 @@ margin: 0 auto;
 	color:#fff;
 }
 
-.footer h4{
+.footer2 a:hover{
 	color:white;
 	text-decoration:none;
 }
@@ -671,13 +682,13 @@ margin: 0 auto;
 	height:25em;
 /*	padding-top:15em;*/
 	padding-bottom:20em;
-	background-image:url('../images/banner_home2.png');
+	background-image:url('../images/banner_home6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .main-header-2{
-	margin: 2em 0 auto;
+	margin: 1em 0 auto;
 	width: 100%;
 	color: #ffffff;
 	font-family: 'Oswald', sans-serif;
@@ -690,6 +701,7 @@ margin: 0 auto;
 .about-2{
 	margin-top:3.5em;
 }
+
 
 /*.grid-item { 
 	height: auto;
@@ -791,7 +803,7 @@ p #answer1{
 /*	padding-top:15em;*/
 	/*padding-bottom:20em;*/
     margin-top: 5.5em;
-    background-image: url('../images/pullquote_grass.jpg');
+    background-image: url('../images/banner_home5.jpg');
 }
 
 .pullquote{

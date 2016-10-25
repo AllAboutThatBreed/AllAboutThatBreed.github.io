@@ -178,9 +178,15 @@ function validateForm() {
 }
 
 
+document.getElementById("uploadBtn").onchange = function () {
+    document.getElementById("uploadFile").value = this.value;
+};
+
+
 function isAValidEmailAddress(emailAddress){
     return /^[a-z0-9_\-\.]{2,}@[a-z0-9_\-\.]{2,}\.[a-z]{2,}$/i.test(emailAddress);
 }
+
 
 
 $(function() {
@@ -198,9 +204,12 @@ $(function() {
   });
 });
 
-    $('.dropdown').on('show.bs.dropdown', function(e){
-        $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
-    });
+   
+
+    $("#file-upload-button").change(function () {
+var fileName = $(this).val().replace('C:\\fakepath\\', '');
+$("#file-upload-filename").html(fileName);
+});
 
 
 });
